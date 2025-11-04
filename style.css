@@ -116,3 +116,66 @@ a {
   display: flex;
   flex-direction: column;
 }
+
+/* third section */
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: darkgray;
+  padding: 5%;
+}
+
+#text {
+  font-size: 24px;
+  color: #1f2937;
+  font-weight: 300;
+  width: 700px;
+  font-style: italic;
+}
+
+#name {
+  margin-left: auto;
+  font-size: 18px;
+  font-weight: bold;
+  width: 700px;
+}
+
+/* fourth section */
+.signUp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: royalblue;
+  width: 900px;
+  margin: 10%;
+  border-radius: 2%;
+  color: white;
+}
+
+.signUp button {
+  border-radius: 2%;
+  background-color: #3882f6;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  max-width: 100px;
+  height: fit-content;
+  padding: 10px;
+  width: 100px;
+}
+
+.signUpContent {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #1f2937;
+  color: white;
+}
