@@ -76,3 +76,43 @@ a {
 }
 
 /* second section */
+
+.info h2 {
+  display: flex;
+  justify-content: center;
+  padding: 1%;
+  color: #1f2937;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.image {
+  width: 100px;
+  height: 125px;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 10%;
+  border-color: royalblue;
+}
+
+.image-group {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 1%;
+  flex-wrap: wrap;
+}
+
+.image-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
